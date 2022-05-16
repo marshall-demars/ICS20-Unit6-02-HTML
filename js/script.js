@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Marshall All rights reserved
 //
 // Created by: Marshall
-// Created on: Apr 2022
+// Created on: May 2022
 // This file contains the JS functions for index.html
 
 /**
@@ -13,9 +13,20 @@ if (navigator.serviceWorker) {
   })
 }
 
+'use strict'
+
 /**
- * This function displays an alert.
+ * This function calculates if you get free admission
  */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+function updateClickCount() {
+  // input
+  // pass
+  
+  // process and output
+  if (localStorage.updateClickCount) {
+    localStorage.updateClickCount = Number(localStorage.updateClickCount) +1
+  } else {
+      localStorage.updateClickCount = 1
+    }
+  document.getElementById("cookie").innerHTML = "Your total hits are " + (localStorage.updateClickCount)
 }
