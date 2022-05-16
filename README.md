@@ -1,4 +1,4 @@
-# ICS20-Unit6-02-HTML 
+# ICS20-Unit6-02-HTML
 
 [![GitHub's Super Linter](https://github.com/marshall-demars/ICS20-Unit6-02-HTML/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/marshall-demars/ICS20-Unit6-02-HTML/actions)
 
